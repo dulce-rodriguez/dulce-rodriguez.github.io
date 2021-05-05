@@ -1,0 +1,51 @@
+img {
+    width: 100%;
+}
+#profile-pic {
+    width: 150px;
+    margin-left: 600px;
+    margin-top: -10px;
+    z-index: 1;
+    padding: 30px;
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1f;
+    margin-left: 20px;
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+    margin: 50px;
+    margin-left: 250px;
+}
+.title {
+    grid-column: 1/1;
+    margin-top: -200px;
+    margin-left: 125px;
+    font-family: "Princess Sofia", cursive;
+    color: white;
+    font-size: 60px;
+}
+main {
+    grid-column: 1/2;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+header {
+    background-color: rgb(216, 190, 172);
+    border-radius: 10px;
+}
+footer {
+    grid-column: 1/2;
+    background-color: rgb(216, 190, 172);
+    border-radius: 4px;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 10px;
+}
+footer p {
+    text-align: center;
+}
