@@ -4,10 +4,25 @@
     }
     main {
         width: 1000px;
-        background-color: cornflowerblue;
+        background-color: white;
+        margin: 10px auto;
     }
     footer {
         width: 1000px;
-        background-color: cadetblue;
+        background-color: black;
+        margin: auto;
+    }
+    .navigation {
+        display: flex;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation li a {
+        color: black;
     }
 }

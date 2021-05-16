@@ -1,16 +1,29 @@
 @media only screen and (min-width:750px) {
     header {
-        background-color: crimson;
+        background-color: black;
     }
     header img {
         width: 100px;
     }
     main {
         width: 725px;
-        background-color: darkmagenta;
+        align-content: center;
+        margin: 10px auto;
     }
     footer {
         width: 725px;
-        background-color: crimson;
+        background-color: black;
+        align-content: center;
+        margin: auto;
+    }
+    .navigation {
+        display: flex;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
     }
 }
