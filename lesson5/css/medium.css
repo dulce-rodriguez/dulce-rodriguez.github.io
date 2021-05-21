@@ -38,6 +38,30 @@
         grid-template-columns: 1fr 1fr;
         height: 300px;
     }
+    .weekforecast {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .articlepic {
+        float: right;
+        margin: 5px 5px;
+        width: 300px;
+    }
+    .article {
+        background-color: gainsboro;
+        margin: 15px;
+        padding: 15px;
+        height: 440px;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .location {
+        width: 200px;
+    }
     footer {
         width: 1000px;
         background-color: black;

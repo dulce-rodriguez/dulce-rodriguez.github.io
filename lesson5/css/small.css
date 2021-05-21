@@ -76,6 +76,9 @@ h2 {
     margin: 10px auto;
     width: 100%;
 }
+.summary {
+    font-family: 'Marcellus', serif;
+}
 .weatherfloat {
     position: absolute;
     top: 350px;
@@ -85,14 +88,34 @@ h2 {
     box-shadow: 0 0 30px black;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 300px;
-    
+    height: 300px; 
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.weekforecast {
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+.articlepic {
+    float: left;
+    margin: 5px;
+    width: 300px;
+}
+.article {
+    background-color: gainsboro;
+    margin: 15px;
+    padding: 15px;
+    height: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.location {
+    width: 80px;
 }
 footer {
     background-color: black;
     color: white;
     font-family: 'Marcellus', serif;
     text-align: center;
-    height: 80px;
+    height: auto;
     padding: 10px;
 }
