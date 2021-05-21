@@ -1,0 +1,98 @@
+header {
+    background-color: black;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    width: 80px;
+    height: auto;
+}
+nav {
+    margin: 0 auto;
+    max-width: 750px;
+    background-color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+    line-height: 1.75;
+}
+.navigation a{
+    display: block;
+    color: black;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+}
+.navigation a:hover {
+    color: rgb(245, 243, 135);
+    background-color: rgb(165, 164, 164);
+    font-weight: 700;
+}
+.responsive li{
+    display: block;
+}
+.moto {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(245, 243, 135);
+    line-height: 0.8;
+}
+.headings {
+    font-family: 'Marcellus', serif;
+    font-size: 30px;
+    margin: 20px;
+    line-height: 0.9;
+    color: white;
+}
+main h2 {
+    font-family: 'Marcellus', serif;
+    text-align: center;
+}
+main div {
+    height: 50px;
+    background-color: rgb(165, 164, 164);
+    margin-top: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    border: 4px solid rgb(245, 243, 135);
+    
+}
+h2 {
+    text-align: center;
+}
+.hero-ph {
+    margin: 10px auto;
+    width: 100%;
+}
+.weatherfloat {
+    position: absolute;
+    top: 350px;
+    left: 130px;
+    background-color: radial-gradient;
+    padding: .5rem;
+    box-shadow: 0 0 30px black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+    
+}
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Marcellus', serif;
+    text-align: center;
+    height: 80px;
+    padding: 10px;
+}
