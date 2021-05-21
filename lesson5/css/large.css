@@ -62,5 +62,6 @@
         width: 1000px;
         background-color: black;
         margin: auto;
+        height: auto;
     }
 }
