@@ -20,8 +20,10 @@
         display: block;
         flex: 1 1 100%;
     }
-    h2 {
-        text-align: center;
+    .hero h2 {
+        font-size: 200%;
+        grid-column: 1/3;
+        grid-row: 1/2;
     }
     .hero {
         display: grid;
@@ -31,7 +33,7 @@
         grid-column: 1/3;
         grid-row: 2/3;
         margin-top: 15px;
-        width: auto;
+        width: 100%;
     }
     .weathersum {
         grid-column: 1/2;
