@@ -40,6 +40,9 @@ nav {
     background-color: rgb(165, 164, 164);
     font-weight: 700;
 }
+.navigation .active {
+    background-color: royalblue;
+}
 .responsive li{
     display: block;
 }
