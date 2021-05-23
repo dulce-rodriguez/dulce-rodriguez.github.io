@@ -23,25 +23,8 @@
     h2 {
         text-align: center;
     }
-    .hero-ph {
-        margin: 10px auto;
-        width: 100%;
-    }
-    .weatherfloat {
-        position: absolute;
-        top: 350px;
-        left: 300px;
-        background-color: radial-gradient;
-        padding: .5rem;
-        box-shadow: 0 0 30px black;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        height: 300px;
-    }
     .weekforecast {
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
+      text-align: center;
     }
     .articlepic {
         float: right;

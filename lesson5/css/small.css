@@ -67,34 +67,26 @@ main div {
     padding: 10px;
     font-size: 20px;
     border: 4px solid rgb(245, 243, 135);
-    
 }
 h2 {
     text-align: center;
 }
-.hero-ph {
-    margin: 10px auto;
+.hero {
+    display: block;
+}
+.hero-img {
     width: 100%;
 }
-.summary {
-    font-family: 'Marcellus', serif;
-}
-.weatherfloat {
-    position: absolute;
-    top: 350px;
-    left: 130px;
-    background-color: radial-gradient;
-    padding: .5rem;
-    box-shadow: 0 0 30px black;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 300px; 
+.weathersum {
+    padding: 10px;
+    background-color:rgba(156, 156, 172, 0.534); 
     font-family: 'Noto Sans JP', sans-serif;
 }
 .weekforecast {
-    justify-content: center;
-    align-items: center;
-    margin: 10px auto;
+    text-align: center;
+}
+.summary {
+    font-family: 'Marcellus', serif;
 }
 .articlepic {
     float: left;

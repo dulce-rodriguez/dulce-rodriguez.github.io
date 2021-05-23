@@ -23,20 +23,24 @@
     h2 {
         text-align: center;
     }
-    .hero-ph {
-        margin: 10px auto;
-        width: 100%;
-    }
-    .weatherfloat {
-        position: absolute;
-        top: 350px;
-        left: 130px;
-        background-color: radial-gradient;
-        padding: .5rem;
-        box-shadow: 0 0 30px black;
+    .hero {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        height: 300px;
+    }
+    .hero-img {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        margin-top: 15px;
+        width: auto;
+    }
+    .weathersum {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        height: 200px;
+        margin: 35px 15px;
+        padding: 20px;
+        background-color:rgba(156, 156, 172, 0.534); 
+        font-family: 'Noto Sans JP', sans-serif;
     }
     .weekforecast {
         justify-content: center;
@@ -50,10 +54,11 @@
     }
     .article {
         background-color: gainsboro;
-        margin: 15px;
+        margin: 0 auto;
         padding: 15px;
         height: 440px;
         font-family: 'Noto Sans JP', sans-serif;
+
     }
     .contact {
         display: grid;
