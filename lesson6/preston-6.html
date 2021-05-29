@@ -9,8 +9,9 @@
 <link rel="stylesheet" href="css/large.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+<script src="js/lesson6.js"></script>
 <script src="js/banner.js"></script>
-<script src="js/lesson5.js"></script>
+<script src="js/windchill.js"></script>
 <title>Weather Site</title>
 </head>
 <body>
@@ -36,14 +37,19 @@
     <main>     
         <section class="hero">
             <h2 class="summary">Preston Idaho</h2>
-            <img class="hero-img" src="images/Town1000.jpg" alt="image of a town">
-            <p class="weathersum"><strong>Weather Summary</strong><br>
-                                Currently: Sunny<br>
-                                High: 76 &deg;F<br>
-                                Wind Chill: &deg;F<br>
-                                Humidity: 69%<br>
-                                Wind Speed: 5 mph<br>
-            </p> 
+            <picture class="hero-img">
+            <source media="(min-width:1100px)" srcset="images/hero-large.jpg">    
+            <source media="(min-width:750px)" srcset="images/hero-medium.jpg">  
+            <img src="images/hero-small.jpg" alt="image of a town">
+            </picture>
+            <div class="sumtext">
+                                <p><strong>Weather Summary</strong></p>
+                                <p>Currently: Sunny</p>
+                                <p>High: 76&deg;F</p>
+                                <p>Wind Chill: <p id="wind-chill"></p>&deg;F</p>
+                                <p>Humidity: 69%</p>
+                                <p>Wind Speed: 10 mph</p>
+                            </div>
         </section>
         <section class="weekforecast">
             <h2 class="summary">Five Day Forecast</h2>
