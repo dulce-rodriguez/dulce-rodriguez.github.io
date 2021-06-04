@@ -8,9 +8,10 @@ body {
      max-width: 100%;
      height: auto;
      margin: 10px auto;
+     align-items: center;
  }
  h1 {
-     grid-column: 2/2;
+    grid-column: 2/2;
     font-family: 'Amatic SC', cursive;
     text-align: center;
     font-size: 60px;
