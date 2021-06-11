@@ -2,6 +2,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
+    background-color: blanchedalmond;
 }
 img [data-src] {
     filter: blur(0.2em);
