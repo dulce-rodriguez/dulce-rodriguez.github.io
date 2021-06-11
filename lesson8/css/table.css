@@ -1,0 +1,41 @@
+table {
+    position: absolute;
+    margin: auto;
+    font-family: Ubuntu, sans-serif;
+    width: 300px;
+	height: 300px;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+thead {
+    background-color: #7fb9c2;
+    font-size: 25px;
+}
+.darkblue {
+    background-color: #628ca6;
+    color: white;
+}
+.gray {
+    background-color: #e7f0ed;
+}
+.mint {
+    background-color: #e7ffed;
+}
+tfoot {
+    background-color: #7fb9c2;
+    font-size: 12px;
+}
+tr td {
+    margin: 0;
+    text-align: center;
+    padding: 8px;
+}
+tbody tr:nth-child(6) td:first-child {
+    font-style:italic;
+}
+table, th, td {
+    border: 1px solid silver;
+    border-collapse: collapse;
+}
