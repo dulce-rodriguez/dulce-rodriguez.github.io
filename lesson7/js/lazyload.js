@@ -30,10 +30,7 @@ if ('IntersectionObserver' in window) {
   });
 
 } else {
-
   imagesToLoad.forEach((img) => {
     loadImages(img);
-
   });
-  
 }
