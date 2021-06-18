@@ -1,0 +1,81 @@
+header {
+    color: ;
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    font-size: x-large;
+}
+
+h2 {
+    color: gray;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    font-style: inherit;
+}
+
+p {
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0px 0px 9px 6px rgb(97, 96, 96);
+    max-width: 60%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+section {
+    background-color: rgb(211, 221, 235);
+    margin: 2px;
+    padding: 5%;
+}
+
+footer {
+    font-family: Helvetica, sans-serif;
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+    color: #d8ceb9;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+@media only screen and (min-width:42em) { /*medium*/
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    img {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (min-width:78em) {
+    /*Large*/
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0%;
+    }
+
+    img {
+        max-width: 90%;
+    }
+
+    section{
+        padding: 0;
+    }
+
+}
