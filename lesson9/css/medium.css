@@ -20,18 +20,20 @@
         display: block;
         flex: 1 1 100%;
     }
-    input[type=text], select {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-      }
-    .contact {
+    .cards {
+        display: block;
+    }
+    .cards section p, h4 {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    .cards img {
+        width: 50%;
+    }
+    .map {
+        width: 40%;
+        margin-left: 10%;
+        padding: 0%;
     }
     .location {
         width: 200px;

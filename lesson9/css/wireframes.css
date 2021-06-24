@@ -1,0 +1,13 @@
+img {
+    width: auto;
+}
+section {
+display: block;
+align-items: center;
+font-family: 'Noto Sans JP', sans-serif;
+text-align: center;
+margin: 15px auto;
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Marcellus', serif;

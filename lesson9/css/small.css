@@ -58,57 +58,52 @@ nav {
     line-height: 0.9;
     color: white;
 }
-form {
-    font-family: 'Noto Sans JP', sans-serif;
-}
-.label {
-    font-weight: bold;
-}
-#form {
-    margin: auto;
-    border-radius: 5px;
-    background-color: #dbd8d8;
-    padding: 20px;
-}
-#formtitle {
+.welcome {
     font-family: 'Marcellus', serif;
     text-align: center;
-    margin: 20px auto;
+    font-size: 30px;
+    margin: auto;
+    padding: 15px;
 }
-.field {
+.towns img{
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
 }
-input[type=text], select {
+.cards img {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
   }
-  input[type=submit] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    background-color: rgb(165, 164, 164);
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+.cards {
     font-family: 'Noto Sans JP', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-  }
-  input[type=submit]:hover {
-      background-color: rgb(204, 181, 151);
-  }
+    text-align: center;
+}
+.cards section {
+    background-color: rgb(167, 167, 118);
+    padding: 10px;
+    margin: 10px auto;
+}
+.cards section h3 {
+    font-family: 'Marcellus', serif;
+    font-size: 30px;
+    background-color: rgb(226, 226, 139);
+    height: 40px;
+    padding: 10px;
+    border: 4px solid rgb(105, 105, 69);
+    color: rgb(105, 105, 69);
+}
+.events {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgb(167, 167, 118);
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+.uevents {
+    grid: none;
+    align-items: center;
+    font-family: 'Marcellus', serif;
+    font-size: 30px;
+}
 .location {
     width: 80px;
 }

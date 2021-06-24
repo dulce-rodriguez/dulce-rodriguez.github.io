@@ -20,20 +20,18 @@
     .navigation li a {
         color: black;
     }
-    .weekforecast {
-      text-align: center;
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    .articlepic {
-        float: right;
-        margin: 5px;
-        width: 500px;
+    .cards section {
+        padding: 10px;
+        margin: 10px 10px;
+        display: block;
     }
-    .article {
-        background-color: gainsboro;
-        margin: 15px;
-        padding: 15px;
-        height: 440px;
-        font-family: 'Noto Sans JP', sans-serif;
+    .cards img {
+        width: 100%;
+        margin-top: 10px;
     }
     .location {
         width: 200px;
