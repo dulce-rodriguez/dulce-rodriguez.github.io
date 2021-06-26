@@ -28,7 +28,18 @@
         grid-template-columns: 1fr;
     }
     .cards img {
-        width: 50%;
+        width: 90%;
+    }
+    .cards section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .cards section p, .cards section h4 {
+        grid-column: 1/2;
+    }
+    .cards section img {
+        grid-row: 2/7;
+        grid-column: 2/3;
     }
     .map {
         width: 40%;

@@ -40,6 +40,8 @@ fetch(requestURL)
         }
     }
 
-
+    document.getElementsByClassName("cards0").style.order = "2";
+    document.getElementsByClassName("cards2").style.order = "3";
+    document.getElementsByClassName("cards6").style.order = "1";
 
   });
