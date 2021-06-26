@@ -10,8 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
 <script src="js/banner.js"></script>
-<script src="js/lesson5.js"></script>
-<script src="js/weatherapi.js"></script>
+<script src="js/menu.js"></script>
+<script defer src="js/weatherapi.js"></script>
 <title>Weather Site</title>
 </head>
 <body>
@@ -26,7 +26,7 @@
         <ul class="navigation responsive">
             <li><a href="#" onclick="smallMenu()">&#9776; Menu</a></li>
             <li><a href="https://dulce-rodriguez.github.io/lesson9/index.html">Home</a></li>
-            <li><a class="active" href="https://dulce-rodriguez.github.io/lesson5/preston-5.html">Preston</a></li>
+            <li><a class="active" href="https://dulce-rodriguez.github.io/lesson10/preston-10.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="https://dulce-rodriguez.github.io/lesson8/stormcenter.html">Storm Center</a></li>
@@ -41,37 +41,29 @@
             <section class="weathersum"><h3 >Weather Summary</h3>
                                 <p>Currently: <span id="current"></span></p>
                                 <p>High: <span id="current-temp"></span>&deg;F</p>
-                                <p>Wind Chill: <span id="wind"></span>&deg;F</p>
-                                <p>Humidity: <span id="humidity"></span></p>
-                                <p>Wind Speed: <span id="speed"></span></p>
+                                <p>Wind Chill: <span id="wind"></span></p>
+                                <p>Humidity: <span id="humidity"></span> %</p>
+                                <p>Wind Speed: <span id="speed"></span> mph</p>
         
             </section> 
         </section>
         <section class="weekforecast">
             <h2 class="summary">Five Day Forecast</h2>
-            <table style="width: 100%;">
-                <tr>
-                    <th>Wed</th>
-                    <th>Thu</th>
-                    <th>Fri</th>
-                    <th>Sat</th>
-                    <th>Sun</th>
-                </tr>
-                <tr>
-                    <td><img class="sun" src="images/sun100.jpg" alt="forecast image"></td>
-                    <td><img class="sun" src="images/sun100.jpg" alt="forecast image"></td>
-                    <td><img class="sun" src="images/sun100.jpg" alt="forecast image"></td>
-                    <td><img class="sun" src="images/sun100.jpg" alt="forecast image"></td>
-                    <td><img class="sun" src="images/sun100.jpg" alt="forecast image"></td>
-                </tr>
-                <tr>
-                    <td>76 &deg;F</td>
-                    <td>80 &deg;F</td>
-                    <td>77 &deg;F</td>
-                    <td>70 &deg;F</td>
-                    <td>65 &deg;F</td>
-                </tr>
-                </table>
+            <p><span id="dayofweek1"></span> 
+                <span id="imagesrc1"></span> <img id="icon1"> 
+                <span id="forecast1"></span>&deg; F</p>
+            <p><span id="dayofweek2"></span> 
+                <span id="imagesrc2"></span> <img id="icon2"> 
+                <span id="forecast2"></span>&deg; F</p>
+            <p><span id="dayofweek3"></span> 
+                <span id="imagesrc3"></span> <img id="icon3"> 
+                <span id="forecast3"></span>&deg; F</p>
+            <p><span id="dayofweek4"></span> 
+                <span id="imagesrc4"></span> <img id="icon4"> 
+                <span id="forecast4"></span>&deg; F</p>
+            <p><span id="dayofweek5"></span> 
+                <span id="imagesrc5"></span> <img id="icon5"> 
+                <span id="forecast5"></span>&deg; F</p>
         </section>
         <section class="article">
             <h2 class="summary">Founders Day Fresco</h2>
