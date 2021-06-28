@@ -7,8 +7,9 @@
 <link rel="stylesheet" href="css/small.css">
 <link rel="stylesheet" href="css/medium.css">
 <link rel="stylesheet" href="css/large.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Poiret+One&display=swap" rel="stylesheet">
 <script src="js/banner.js"></script>
 <script src="js/menu.js"></script>
 <script defer src="js/weatherapi.js"></script>
@@ -16,15 +17,15 @@
 </head>
 <body>
     <header>
-    <img src="images/bringtheweatherlogo100.jpg" alt="logo for bring the weather site">
+    <img src="images/BTW-logo-100.png" alt="logo for bring the weather site">
     <section class="headings">
     <h2>Bring The Weather</h2>
-    <div class="moto">We bring the weather where you are</div>
+    <p class="moto">We bring the weather where you are</p>
     </section>
     </header>
     <nav>
-        <ul class="navigation responsive">
-            <li><a href="#" onclick="smallMenu()">&#9776; Menu</a></li>
+        <ul class="navigation">
+            <li><a href="#" onclick="smallMenu()">&#9776;</a></li>
             <li><a href="https://dulce-rodriguez.github.io/lesson9/index.html">Home</a></li>
             <li><a class="active" href="https://dulce-rodriguez.github.io/lesson10/preston-10.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
@@ -47,22 +48,22 @@
         
             </section> 
         </section>
+        <h2 class="summary">Five Day Forecast</h2>
         <section class="weekforecast">
-            <h2 class="summary">Five Day Forecast</h2>
-            <p><span id="dayofweek1"></span> 
-                <span id="imagesrc1"></span> <img id="icon1"> 
+            <p><span id="dayofweek1"></span> <br><br>
+                <span id="imagesrc1"></span> <img id="icon1" src="" alt=""><br><br> 
                 <span id="forecast1"></span>&deg; F</p>
-            <p><span id="dayofweek2"></span> 
-                <span id="imagesrc2"></span> <img id="icon2"> 
+            <p><span id="dayofweek2"></span> <br><br>
+                <span id="imagesrc2"></span> <img id="icon2" src="" alt=""> <br><br>
                 <span id="forecast2"></span>&deg; F</p>
-            <p><span id="dayofweek3"></span> 
-                <span id="imagesrc3"></span> <img id="icon3"> 
+            <p><span id="dayofweek3"></span> <br><br>
+                <span id="imagesrc3"></span> <img id="icon3" src="" alt=""> <br><br>
                 <span id="forecast3"></span>&deg; F</p>
-            <p><span id="dayofweek4"></span> 
-                <span id="imagesrc4"></span> <img id="icon4"> 
+            <p><span id="dayofweek4"></span> <br><br>
+                <span id="imagesrc4"></span> <img id="icon4" src="" alt=""> <br><br>
                 <span id="forecast4"></span>&deg; F</p>
-            <p><span id="dayofweek5"></span> 
-                <span id="imagesrc5"></span> <img id="icon5"> 
+            <p><span id="dayofweek5"></span> <br><br>
+                <span id="imagesrc5"></span> <img id="icon5" src="" alt=""> <br><br>
                 <span id="forecast5"></span>&deg; F</p>
         </section>
         <section class="article">

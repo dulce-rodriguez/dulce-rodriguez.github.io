@@ -1,7 +1,4 @@
 @media only screen and (min-width:750px) {
-    header {
-        background-color: black;
-    }
     header img {
         width: 100px;
     }
@@ -46,10 +43,12 @@
         font-family: 'Noto Sans JP', sans-serif;
     }
     .weekforecast {
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr 1fr;
     }
+    .
+
     .articlepic {
         float: right;
         margin: 5px 5px;
@@ -61,7 +60,6 @@
         padding: 15px;
         height: 440px;
         font-family: 'Noto Sans JP', sans-serif;
-
     }
     .contact {
         display: grid;

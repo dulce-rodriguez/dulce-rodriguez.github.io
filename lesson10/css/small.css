@@ -1,5 +1,5 @@
 header {
-    background-color: black;
+    background-color: white;
     padding: 5px 0;
     display: flex;
     align-items: center;
@@ -11,7 +11,7 @@ header img {
 }
 nav {
     margin: 0 auto;
-    max-width: 750px;
+    max-width: 600px;
     background-color: white;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 20px;
@@ -48,18 +48,22 @@ nav {
 }
 .moto {
     font-family: 'Noto Sans JP', sans-serif;
-    color: rgb(245, 243, 135);
-    line-height: 0.8;
+    color: black;
+    line-height: 0.5;
+    font-size: 18px;
 }
 .headings {
-    font-family: 'Marcellus', serif;
+    font-family: 'Poiret One', cursive;
     font-size: 30px;
     margin: 20px;
     line-height: 0.9;
-    color: white;
+    color: black;
+}
+main {
+    background-color: #EDEDE9;
 }
 main h2 {
-    font-family: 'Marcellus', serif;
+    font-family: font-family: 'Poiret One', cursive;
     text-align: center;
 }
 main div {
@@ -72,7 +76,6 @@ main div {
     border: 4px solid rgb(245, 243, 135);
 }
 .hero h2 {
-    font-size: 200%;
     grid-column: 1/3;
     grid-row: 1/2;
 }
@@ -91,7 +94,8 @@ main div {
     text-align: center;
 }
 .summary {
-    font-family: 'Marcellus', serif;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
 }
 .articlepic {
     float: left;
@@ -105,13 +109,16 @@ main div {
     height: auto;
     font-family: 'Noto Sans JP', sans-serif;
 }
+.weekforecast {
+    display: none;
+}
 .location {
     width: 80px;
 }
 footer {
-    background-color: black;
-    color: white;
-    font-family: 'Marcellus', serif;
+    background-color: white;
+    color: black;
+    font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
     height: auto;
     padding: 10px;
