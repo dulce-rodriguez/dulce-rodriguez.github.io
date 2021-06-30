@@ -5,7 +5,7 @@
     main {
         width: 725px;
         align-content: center;
-        margin: 10px auto;
+        margin: 10px auto;        
     }
     .navigation {
         display: flex;
@@ -15,7 +15,9 @@
     }
     .navigation li {
         display: block;
-        flex: 1 1 100%;
+        flex: 1 1 1 100%;
+        margin: auto;
+        font-size: 18px;
     }
     .hero h2 {
         font-size: 200%;
@@ -70,7 +72,7 @@
     }
     footer {
         width: 1000px;
-        background-color: black;
+        background-color: white;
         margin: auto;
         height: auto;
     }

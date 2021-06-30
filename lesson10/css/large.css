@@ -4,8 +4,8 @@
     }
     main {
         width: 1000px;
-        background-color: white;
         margin: 10px auto;
+
     }
     .navigation {
         display: flex;
@@ -15,10 +15,11 @@
     }
     .navigation li {
         display: block;
-        flex: 1 1 100%;
+        flex: 1 1 1 100%;
     }
     .navigation li a {
         color: black;
+        float: left;
     }
     .weekforecast {
       text-align: center;

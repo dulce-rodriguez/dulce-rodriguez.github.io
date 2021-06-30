@@ -17,16 +17,17 @@ nav {
     font-size: 20px;
 }
 .navigation {
+    overflow: hidden;
     list-style: none;
     text-align: center;
-    padding: 0;
+    padding: 0px;
 }
 .navigation li:first-child {
     display: block;
 }
 .navigation li {
     display: none;
-    line-height: 1.75;
+    line-height: 1.75; 
 }
 .navigation a{
     display: block;
@@ -37,8 +38,10 @@ nav {
 }
 .navigation a:hover {
     color: rgb(245, 243, 135);
-    background-color: rgb(165, 164, 164);
     font-weight: 700;
+}
+.navigation li:hover {
+    background-color: rgb(165, 164, 164);
 }
 .navigation .active {
     background-color: royalblue;
@@ -58,6 +61,9 @@ nav {
     margin: 20px;
     line-height: 0.9;
     color: black;
+}
+body {
+    background-color: #EDEDE9;
 }
 main {
     background-color: #EDEDE9;
