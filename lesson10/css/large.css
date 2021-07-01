@@ -5,43 +5,23 @@
     main {
         width: 1000px;
         margin: 10px auto;
-
-    }
-    .navigation {
-        display: flex;
     }
     .navigation li:first-child {
         display: none;
     }
     .navigation li {
         display: block;
-        flex: 1 1 1 100%;
-    }
-    .navigation li a {
-        color: black;
-        float: left;
     }
     .weekforecast {
       text-align: center;
     }
     .articlepic {
         float: right;
-        margin: 5px;
-        width: 500px;
-    }
-    .article {
-        background-color: gainsboro;
-        margin: 15px;
-        padding: 15px;
-        height: 440px;
-        font-family: 'Noto Sans JP', sans-serif;
-    }
-    .location {
-        width: 200px;
+        margin: 10px;
+        width: auto;
     }
     footer {
         width: 1000px;
-        background-color: black;
         margin: auto;
         height: auto;
     }

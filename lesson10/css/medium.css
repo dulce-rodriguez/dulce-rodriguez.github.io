@@ -1,4 +1,4 @@
-@media only screen and (min-width:750px) {
+@media only screen and (min-width:755px) {
     header img {
         width: 100px;
     }
@@ -10,6 +10,9 @@
     .navigation {
         display: flex;
     }
+    .navigation a {
+        font-size: 18px;
+    }
     .navigation li:first-child {
         display: none;
     }
@@ -19,6 +22,7 @@
         margin: auto;
         font-size: 18px;
     }
+    
     .hero h2 {
         font-size: 200%;
         grid-column: 1/3;
@@ -41,26 +45,26 @@
         height: 250px;
         margin: 35px 15px;
         padding: 20px;
-        background-color:rgba(156, 156, 172, 0.534); 
+        background-color:rgba(156, 156, 172, 0.822); 
         font-family: 'Noto Sans JP', sans-serif;
+    }
+    .fdforecast {
+        grid: none;
+
     }
     .weekforecast {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: 1fr 1fr;
     }
-    .
-
     .articlepic {
         float: right;
         margin: 5px 5px;
         width: 300px;
     }
     .article {
-        background-color: gainsboro;
-        margin: 0 auto;
+        margin: 10px;
         padding: 15px;
-        height: 440px;
+        height: auto;
         font-family: 'Noto Sans JP', sans-serif;
     }
     .contact {
@@ -68,11 +72,10 @@
         grid-template-columns: 1fr 1fr;
     }
     .location {
-        width: 200px;
+        width: 70%;
     }
     footer {
-        width: 1000px;
-        background-color: white;
+        width: 75%;
         margin: auto;
         height: auto;
     }
