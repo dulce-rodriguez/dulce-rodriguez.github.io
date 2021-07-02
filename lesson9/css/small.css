@@ -1,65 +1,71 @@
+/* --------HEADER----------- */
 header {
-    background-color: black;
+    background-color: #cc5514b2;
     padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 4px;
 }
 header img {
     width: 80px;
     height: auto;
 }
-nav {
-    margin: 0 auto;
-    max-width: 750px;
-    background-color: white;
+.moto {
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 20px;
+    color: white;
+    font-size: 18px;
 }
+.headings {
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    margin: 20px;
+    line-height: 0.9;
+    color: white;
+}
+/* --------NAVIGATION----------- */
 .navigation {
-    list-style: none;
+    background-color: #19334d;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-radius: 4px;
+}
+.navigation a{
+    display: block;
+    color: white;
     text-align: center;
-    padding: 0;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
 }
 .navigation li:first-child {
     display: block;
 }
 .navigation li {
     display: none;
-    line-height: 1.75;
+    line-height: 1.75; 
 }
-.navigation a{
-    display: block;
+nav a:hover {
     color: black;
-    padding: 0;
-    text-align: center;
-    text-decoration: none;
-}
-.navigation a:hover {
-    color: rgb(245, 243, 135);
-    background-color: rgb(165, 164, 164);
+    background-color: #718eac;
     font-weight: 700;
 }
 .navigation .active {
-    background-color: royalblue;
+    background-color: #718eac;
 }
 .responsive li{
     display: block;
 }
-.moto {
-    font-family: 'Noto Sans JP', sans-serif;
-    color: rgb(245, 243, 135);
-    line-height: 0.8;
+/* --------BODY----------- */
+body {
+    background-color: #d7fafeb7;
 }
-.headings {
-    font-family: 'Marcellus', serif;
-    font-size: 30px;
-    margin: 20px;
-    line-height: 0.9;
-    color: white;
+main {
+    background-color: #d7fafe00;
+    padding: 10px;
 }
+/* --------HOME PAGE----------- */
 .welcome {
-    font-family: 'Marcellus', serif;
+    font-family: 'Poiret One', cursive;
     text-align: center;
     font-size: 30px;
     margin: auto;
@@ -78,22 +84,22 @@ nav {
     text-align: center;
 }
 .cards section {
-    background-color: rgb(167, 167, 118);
+    background-color: #e1e6ec;
     padding: 10px;
     margin: 10px auto;
 }
 .cards section h3 {
-    font-family: 'Marcellus', serif;
-    font-size: 30px;
-    background-color: rgb(226, 226, 139);
-    height: 40px;
-    padding: 10px;
-    border: 4px solid rgb(105, 105, 69);
-    color: rgb(105, 105, 69);
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    padding: 20px;
+    background-color: #718eac;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
 }
 .events {
     font-family: 'Noto Sans JP', sans-serif;
-    background-color: rgb(167, 167, 118);
+    background-color: #e1e6ec;
     display: block;
     text-align: center;
     padding: 10px;
@@ -101,17 +107,20 @@ nav {
 .uevents {
     grid: none;
     align-items: center;
-    font-family: 'Marcellus', serif;
+    font-family: 'Poiret One', cursive;
     font-size: 30px;
 }
-.location {
-    width: 80px;
-}
+/* --------FOOTER----------- */
 footer {
-    background-color: black;
-    color: white;
-    font-family: 'Marcellus', serif;
+    background-color: #cb997e;
+    color: black;
+    font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
     height: auto;
     padding: 10px;
+    border-radius: 4px;
+    width: auto;
+}
+.location {
+    width: 50%;
 }

@@ -1,25 +1,25 @@
 @media only screen and (min-width:750px) {
-    header {
-        background-color: black;
-    }
-    header img {
+     /* --------HEADER----------- */
+     header img {
         width: 100px;
     }
-    main {
-        width: 725px;
-        align-content: center;
-        margin: 10px auto;
-    }
+    /* --------NAVIGATION----------- */
     .navigation {
         display: flex;
+    }
+    .navigation a {
+        font-size: 18px;
     }
     .navigation li:first-child {
         display: none;
     }
     .navigation li {
         display: block;
-        flex: 1 1 100%;
+        flex: 1 1 1 100%;
+        margin: auto;
+        font-size: 18px;
     }
+     /* --------STORM CENTER----------- */
     input[type=text], select {
         width: 100%;
         padding: 12px 20px;
@@ -29,17 +29,17 @@
         border-radius: 4px;
         box-sizing: border-box;
       }
-    .contact {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .location {
-        width: 200px;
-    }
-    footer {
-        width: 1000px;
-        background-color: black;
-        margin: auto;
-        height: auto;
-    }
+   /* --------FOOTER----------- */
+   footer {
+    width: 75%;
+    margin: auto;
+    height: auto;
+}
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.location {
+    width: 60%;
+}
 }

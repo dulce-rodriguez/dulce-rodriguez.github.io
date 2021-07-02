@@ -1,25 +1,16 @@
 @media only screen and (min-width:1100px) {
+    /* --------HEADER----------- */
     header img {
         width: 100px;
     }
-    main {
-        width: 1000px;
-        background-color: white;
-        margin: 10px auto;
-    }
-    .navigation {
-        display: flex;
-    }
+    /* --------NAVIGATION----------- */
     .navigation li:first-child {
         display: none;
     }
     .navigation li {
         display: block;
-        flex: 1 1 100%;
     }
-    .navigation li a {
-        color: black;
-    }
+    /* --------HOME PAGE----------- */
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -33,12 +24,9 @@
         width: 100%;
         margin-top: 10px;
     }
-    .location {
-        width: 200px;
-    }
+    /* --------FOOTER----------- */
     footer {
         width: 1000px;
-        background-color: black;
         margin: auto;
         height: auto;
     }

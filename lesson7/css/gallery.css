@@ -1,63 +1,61 @@
+/* --------HEADER----------- */
 header {
-    background-color: black;
+    background-color: #cc5514b2;
     padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 4px;
 }
 header img {
     width: 80px;
     height: auto;
 }
-nav {
-    margin: 0 auto;
-    max-width: 750px;
-    background-color: white;
+.moto {
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 20px;
+    color: white;
+    font-size: 18px;
 }
+.headings {
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    margin: 20px;
+    line-height: 0.9;
+    color: white;
+}
+/* --------NAVIGATION----------- */
 .navigation {
-    list-style: none;
+    background-color: #19334d;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-radius: 4px;
+}
+.navigation a{
+    display: block;
+    color: white;
     text-align: center;
-    padding: 0;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
 }
 .navigation li:first-child {
     display: block;
 }
 .navigation li {
     display: none;
-    line-height: 1.75;
+    line-height: 1.75; 
 }
-.navigation a{
-    display: block;
+nav a:hover {
     color: black;
-    padding: 0;
-    text-align: center;
-    text-decoration: none;
-}
-.navigation a:hover {
-    color: rgb(245, 243, 135);
-    background-color: rgb(165, 164, 164);
+    background-color: #718eac;
     font-weight: 700;
 }
 .navigation .active {
-    background-color: royalblue;
+    background-color: #718eac;
 }
 .responsive li{
     display: block;
 }
-.moto {
-    font-family: 'Noto Sans JP', sans-serif;
-    color: rgb(245, 243, 135);
-    line-height: 0.8;
-}
-.headings {
-    font-family: 'Marcellus', serif;
-    font-size: 30px;
-    margin: 20px;
-    line-height: 0.9;
-    color: white;
-}
+  /* --------GALLERY----------- */
 .gallery {
     display: grid;
     grid-template-columns: 1fr;
@@ -71,39 +69,42 @@ figcaption {
     font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
 }
-.location {
-    width: 80px;
-}
+/* --------FOOTER----------- */
 footer {
-    background-color: black;
-    color: white;
-    font-family: 'Marcellus', serif;
+    background-color: #cb997e;
+    color: black;
+    font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
     height: auto;
     padding: 10px;
+    border-radius: 4px;
+    width: auto;
+}
+.location {
+    width: 50%;
 }
 @media only screen and (min-width:750px) {
-    header {
-        background-color: black;
-    }
+    /* --------HEADER----------- */
     header img {
         width: 100px;
     }
-    main {
-        width: 725px;
-        align-content: center;
-        margin: 10px auto;
-    }
+    /* --------NAVIGATION----------- */
     .navigation {
         display: flex;
+    }
+    .navigation a {
+        font-size: 18px;
     }
     .navigation li:first-child {
         display: none;
     }
     .navigation li {
         display: block;
-        flex: 1 1 100%;
+        flex: 1 1 1 100%;
+        margin: auto;
+        font-size: 18px;
     }
+    /* --------GALLERY----------- */
     .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -111,45 +112,46 @@ footer {
     }
     .gallery img {
         width: 100%;
-        margin: 10px 10px;
+        margin: 10px;
     }
     figcaption {
         font-family: 'Noto Sans JP', sans-serif;
+        font-size: 18px;
         text-align: center;
+        padding: 20px;
+        background-color: #718eac;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
     }
-    .location {
-        width: 200px;
-    }
+    /* --------FOOTER----------- */
     footer {
-        width: 1000px;
-        background-color: black;
+        width: 75%;
         margin: auto;
         height: auto;
+    }
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .location {
+        width: 60%;
     }
 }
 
 @media only screen and (min-width:1100px) {
+    /* --------HEADER----------- */
     header img {
         width: 100px;
     }
-    main {
-        width: 1000px;
-        background-color: white;
-        margin: 10px auto;
-    }
-    .navigation {
-        display: flex;
-    }
+    /* --------NAVIGATION----------- */
     .navigation li:first-child {
         display: none;
     }
     .navigation li {
         display: block;
-        flex: 1 1 100%;
     }
-    .navigation li a {
-        color: black;
-    }
+    /* --------GALLERY----------- */
     .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -166,12 +168,9 @@ footer {
     .gallery img:hover {
         box-shadow: 0 0 50px #333;
     }
-    .location {
-        width: 200px;
-    }
+    /* --------FOOTER----------- */
     footer {
         width: 1000px;
-        background-color: black;
         margin: auto;
         height: auto;
     }

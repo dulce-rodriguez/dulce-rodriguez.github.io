@@ -1,63 +1,69 @@
+/* --------HEADER----------- */
 header {
-    background-color: black;
+    background-color: #cc5514b2;
     padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 4px;
 }
 header img {
     width: 80px;
     height: auto;
 }
-nav {
-    margin: 0 auto;
-    max-width: 750px;
-    background-color: white;
+.moto {
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 20px;
+    color: white;
+    font-size: 18px;
 }
+.headings {
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    margin: 20px;
+    line-height: 0.9;
+    color: white;
+}
+/* --------NAVIGATION----------- */
 .navigation {
-    list-style: none;
+    background-color: #19334d;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-radius: 4px;
+}
+.navigation a{
+    display: block;
+    color: white;
     text-align: center;
-    padding: 0;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
 }
 .navigation li:first-child {
     display: block;
 }
 .navigation li {
     display: none;
-    line-height: 1.75;
+    line-height: 1.75; 
 }
-.navigation a{
-    display: block;
+nav a:hover {
     color: black;
-    padding: 0;
-    text-align: center;
-    text-decoration: none;
-}
-.navigation a:hover {
-    color: rgb(245, 243, 135);
-    background-color: rgb(165, 164, 164);
+    background-color: #718eac;
     font-weight: 700;
 }
 .navigation .active {
-    background-color: royalblue;
+    background-color: #718eac;
 }
 .responsive li{
     display: block;
 }
-.moto {
-    font-family: 'Noto Sans JP', sans-serif;
-    color: rgb(245, 243, 135);
-    line-height: 0.8;
+/* --------BODY----------- */
+body {
+    background-color: #d7fafeb7;
 }
-.headings {
-    font-family: 'Marcellus', serif;
-    font-size: 30px;
-    margin: 20px;
-    line-height: 0.9;
-    color: white;
+main {
+    background-color: #d7fafe00;
+    padding: 10px;
 }
+/* --------STORM CENTER----------- */
 form {
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -67,13 +73,19 @@ form {
 #form {
     margin: auto;
     border-radius: 5px;
-    background-color: #dbd8d8;
+    background-color: #e1e6ec;
     padding: 20px;
 }
 #formtitle {
-    font-family: 'Marcellus', serif;
-    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    padding: 20px;
+    background-color: #718eac;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
     margin: 20px auto;
+    text-align: center;
 }
 .field {
     width: 100%;
@@ -98,7 +110,8 @@ input[type=text], select {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    background-color: rgb(165, 164, 164);
+    background-color: #19334d;
+    color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -107,16 +120,19 @@ input[type=text], select {
     font-size: 18px;
   }
   input[type=submit]:hover {
-      background-color: rgb(204, 181, 151);
+      background-color: #718eac;
   }
-.location {
-    width: 80px;
-}
+/* --------FOOTER----------- */
 footer {
-    background-color: black;
-    color: white;
-    font-family: 'Marcellus', serif;
+    background-color: #cb997e;
+    color: black;
+    font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
     height: auto;
     padding: 10px;
+    border-radius: 4px;
+    width: auto;
+}
+.location {
+    width: 50%;
 }

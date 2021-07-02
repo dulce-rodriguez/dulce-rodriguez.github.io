@@ -1,25 +1,26 @@
 @media only screen and (min-width:750px) {
-    header {
-        background-color: black;
-    }
+        /* --------HEADER----------- */
+    /* --------HEADER----------- */
     header img {
         width: 100px;
     }
-    main {
-        width: 725px;
-        align-content: center;
-        margin: 10px auto;
-    }
+    /* --------NAVIGATION----------- */
     .navigation {
         display: flex;
+    }
+    .navigation a {
+        font-size: 18px;
     }
     .navigation li:first-child {
         display: none;
     }
     .navigation li {
         display: block;
-        flex: 1 1 100%;
+        flex: 1 1 1 100%;
+        margin: auto;
+        font-size: 18px;
     }
+    /* --------HOME PAGE----------- */
     .cards {
         display: block;
     }
@@ -41,18 +42,16 @@
         grid-row: 2/7;
         grid-column: 2/3;
     }
-    .map {
-        width: 40%;
-        margin-left: 10%;
-        padding: 0%;
-    }
-    .location {
-        width: 200px;
-    }
+    /* --------FOOTER----------- */
     footer {
-        width: 1000px;
-        background-color: black;
+        width: 75%;
         margin: auto;
         height: auto;
     }
-}
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .location {
+        width: 60%;
+    }
