@@ -1,0 +1,62 @@
+@media only screen and (min-width:1100px) {
+    /* --------HEADER----------- */
+    header img {
+        width: 100px;
+    }
+    /* --------NAVIGATION----------- */
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+    }
+    /* --------BODY----------- */
+    main {
+        width: 1000px;
+        margin: 10px auto;
+    }
+    /* --------FORECAST----------- */
+    .weekforecast {
+      text-align: center;
+    }
+    /* --------ARTICLE----------- */
+    .articlepic {
+        float: right;
+        margin: 10px;
+        width: auto;
+    }
+    /* --------FOOTER----------- */
+    footer {
+        width: 1000px;
+        margin: auto;
+        height: auto;
+    }
+
+    /* --------HOME PAGE----------- */
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .cards section {
+        padding: 10px;
+        margin: 10px 10px;
+        display: block;
+    }
+    .cards img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    /* --------GALLERY----------- */
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .gallery img {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .gallery img:hover {
+        box-shadow: 0 0 50px #333;
+    }
+}

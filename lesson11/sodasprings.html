@@ -11,7 +11,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Poiret+One&display=swap" rel="stylesheet">
 <script src="js/menu.js"></script>
-<script defer src="js/weatherapi.js"></script>
+<script defer src="js/sodaspringsapi.js"></script>
+<script src="js/eventsp.js"></script>
 <title>Weather Site</title>
 </head>
 <body>
@@ -25,18 +26,18 @@
     <nav>
         <ul class="navigation">
             <li><a href="#" onclick="smallMenu()">&#9776; Menu</a></li>
-            <li><a href="https://dulce-rodriguez.github.io/lesson9/index.html">Home</a></li>
-            <li><a class="active" href="https://dulce-rodriguez.github.io/lesson10/preston.html">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="https://dulce-rodriguez.github.io/lesson8/stormcenter.html">Storm Center</a></li>
-            <li><a href="https://dulce-rodriguez.github.io/lesson7/gallery.html">Gallery</a></li> 
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a class="active" href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li> 
         </ul>
     </nav>
     <main>     
         <section class="hero">
-            <h2 class="summary">Preston Idaho</h2>
-            <img class="hero-img" src="images/Town1000.jpg" alt="image of a town">
+            <h2 class="summary">Soda Springs</h2>
+            <img class="hero-img" src="images/sodasprings1000.jpg" alt="image of a town">
             <section class="weathersum"><h3 >Weather Summary</h3>
                                 <p>Currently: <span id="current"></span></p>
                                 <p>High: <span id="current-temp"></span>&deg;F</p>
@@ -66,7 +67,7 @@
         </section>
         <section class="article">
             <h2 class="summary">Founders Day Fresco</h2>
-            <img class="articlepic" src="images/Family500.jpg" alt="picture of a family">
+            <img class="articlepic" src="images/springs500.jpg" alt="picture of flowers">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Dolorum aliquid sed libero molestiae, modi, veritatis 
                 dicta ad dolor, incidunt voluptate asperiores corporis 
@@ -86,16 +87,19 @@
                  Numquam culpa dolor quia ea pariatur temporibus 
                  laudantium rerum?</p>
         </section>
+        <div class="town-events">
+            <h2 class="summary">Events</h2>
+        </div>
     </main>
     <footer>
-        <p>&copy; <span id="current-year">2021</span>
-            | Dulce Rodriguez | Guatemala    
-        </p>
         <div class="contact">
-            <p>Contact Info<br>
+            <p><strong>Bring The Weather Site</strong><br>
                 info@bringtheweather.com<br>
                416-379-8756</p>
                <img class="location" src="images/prestonmap.jpg" alt="location pic">
+               <p class="personalinfo">&copy; <span id="current-year">2021</span>
+                | Dulce Rodriguez | Guatemala    
+            </p>
         </div>
 
     </footer>

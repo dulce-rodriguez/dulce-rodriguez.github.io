@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Poiret+One&display=swap" rel="stylesheet">
+<script src="js/menu.js"></script>
+<script src="js/rating.js"></script>
+<title>Weather Site</title>
+</head>
+<body>
+    <header>
+    <img src="images/BTWtransparent.png" alt="logo for bring the weather site">
+    <section class="headings">
+    <h2>Bring The Weather</h2>
+    <div class="moto">We bring the weather where you are</div>
+    </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="smallMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a class="active" href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>  
+        </ul>
+    </nav>
+    <main>     
+        <h1 id="formtitle">Contact us</h1>
+        <div id="form">
+        <form method="GET" action="thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="label">Full Name <br><input class="field" type="text" name="fname" required></label><br>
+                <label class="label">Email <br><input class="field" type="email" name="email" placeholder="someone@gmail.com"></label><br>
+                <label class="label">Phone Number <br><input class="field" type="tel" name="phone" placeholder="1234451221"></label><br>
+                <label class="label">Zip Code <br><input class="field" type="number" name="zcode" required></label><br>
+                <label class="label">Storm Date <br><input class="field" type="date" name="sdate"></label><br>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="label">Storm Type</label><br>
+                <label><input type="checkbox" name="flashflood" value="yes">Flash Flood</label><br>
+                <label><input type="checkbox" name="hail" value="yes">Hail</label><br>
+                <label><input type="checkbox" name="hurricane" value="yes">Hurricane</label><br>
+                <label><input type="checkbox" name="tstorm" value="yes">Thunderstorm</label><br>
+                <label><input type="checkbox" name="tornado" value="yes">Tornado</label>
+                <br><br>
+                <label class="flexly label" for="rating">Storm Severity &nbsp;&nbsp;&nbsp;
+                    <br><input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+                </label>
+                <br><br>
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+                
+                <label class="label">Storm Region<br>
+                    <select name="sregion" id="stormregion" onchange="selectResponse()">
+                        <option value="" disabled selected>Select a Region...</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select></label>
+                <br><br>
+                
+                    <label class="label">User in-danger Level </label><br>
+                    <label><input type="radio" name="level" value="yes"> Yes</label>
+                    <label><input type="radio" name="level" value="maybe"> Maybe</label>
+                    <label><input type="radio" name="level" value="no"> No</label>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>More info</legend>
+                <label class="label">Additional Information or Comments <br><br><input class="field" type="text" name="information" style="height: 100px;"></label><br><br>
+            </fieldset>
+            <br>
+
+            <input type="submit" onclick="https://dulce-rodriguez.github.io/lesson8/thanks.html">
+        </form>
+    </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="current-year">2021</span>
+            | Dulce Rodriguez | Guatemala    
+        </p>
+        <div class="contact">
+            <p>Contact Info<br>
+                info@bringtheweather.com<br>
+               416-379-8756</p>
+               <img class="location" src="images/prestonmap.jpg" alt="location pic">
+</div>
+    </footer>
+</body>
+</html>
