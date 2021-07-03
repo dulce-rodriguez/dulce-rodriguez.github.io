@@ -31,6 +31,7 @@ header img {
     padding-left: 0;
 }
 .navigation a{
+    font-weight: bold;
     display: block;
     color: white;
     text-align: center;
@@ -46,12 +47,12 @@ header img {
     line-height: 1.75; 
 }
 nav a:hover {
-    color: black;
-    background-color: #718eac;
+    color: white;
+    background-color: #022244;
     font-weight: 700;
 }
 .navigation .active {
-    background-color: #718eac;
+    background-color: #022244;
 }
 .responsive li{
     display: block;
@@ -117,6 +118,10 @@ main h2 {
     padding: 15px;
     height: auto;
     font-family: 'Noto Sans JP', sans-serif;
+}
+/* --------ARTICLE----------- */
+.town-events {
+    text-align: center;
 }
 /* --------FOOTER----------- */
 footer {
@@ -246,4 +251,9 @@ input[type=submit]:hover {
 figcaption {
     font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
+    padding: 10px;
+    background-color: #718eac;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
 }
