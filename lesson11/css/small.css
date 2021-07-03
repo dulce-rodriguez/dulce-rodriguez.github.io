@@ -251,9 +251,5 @@ input[type=submit]:hover {
 figcaption {
     font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
-    padding: 10px;
-    background-color: #718eac;
-    border-radius: 4px;
-    color: white;
     font-weight: bold;
 }
