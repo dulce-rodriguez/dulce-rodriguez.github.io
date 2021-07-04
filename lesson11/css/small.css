@@ -238,6 +238,12 @@ input[type=submit] {
 input[type=submit]:hover {
       background-color: rgb(204, 181, 151);
 }
+.thankyou {
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin: auto;
+}
   /* --------GALLERY----------- */
 .gallery {
     display: grid;
