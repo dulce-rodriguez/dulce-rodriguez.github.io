@@ -45,12 +45,4 @@ fetch(apiURLforecast)
         document.getElementById(`icon${img+1}`).setAttribute('alt', desc);
         img++;
     }); 
-
-    /*fivedayForecast.forEach( x => {
-        const imagesrc = `https://openweathermap.org/img/w/${jsObject.list[img].weather[0].icon}.png`;
-        const desc = jsObject.list[img].weather[0].description;
-        document.getElementById(`icon${img+1}`).setAttribute('src', imagesrc);
-        document.getElementById(`icon${img+1}`).setAttribute('alt', desc);
-        img++
-    })*/
 });
