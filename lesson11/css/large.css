@@ -31,7 +31,9 @@
         margin: auto;
         height: auto;
     }
-
+    .social {
+        margin: 0;
+    }
     /* --------HOME PAGE----------- */
     .cards {
         display: grid;
