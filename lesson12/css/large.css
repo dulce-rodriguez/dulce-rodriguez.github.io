@@ -1,0 +1,48 @@
+@media only screen and (min-width:1100px) {
+    /* --------NAVIGATION----------- */
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+    }
+    /* --------JOIN----------- */
+    .join {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 70px;
+    }
+    .joinus {
+        grid-column: 1/3;
+        grid-row: 1/3;
+        height: 100px;
+    }
+    .weathersum {
+        position: absolute;
+        grid-column: 1;
+        grid-row: 1/3;
+        width: 25%;
+        height: auto;
+        margin: -35px 30px;
+    }
+    /* --------FORECAST----------- */
+    .forecast {
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+    /* --------ANTIGUA----------- */
+    .gallery {
+        width: 850px;
+    }
+    .article {
+        width: 850px;
+    }
+    .articlepic {
+        margin: 10px;
+        width: 10%;
+    }
+    /* --------JOIN US PAGE----------- */
+    .joinow {
+        width: 850px;
+    }
+}

@@ -1,0 +1,73 @@
+@media only screen and (min-width:755px) {
+    /* --------Header----------- */
+    .heading {
+        font-size: 35px;
+    }
+    /* --------NAVIGATION----------- */
+    .nav {
+        display: flex;
+    }
+    .nav a {
+        font-size: 15px;
+    }
+    .nav li:first-child {
+        display: none;
+    }
+    .nav li {
+        display: block;
+        flex: 1 1 100%;
+        margin: auto;
+        font-size: 18px;
+    }
+    /* --------BODY----------- */
+    .purpose {
+        width: 800px;
+        margin: auto;
+    }
+    /* --------HIGHLIGHTS----------- */
+    .highlights {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    figure img {
+        width: 100%;
+    }
+    /* --------EVENTS----------- */
+    .events {
+    background-color: #0baaad83;
+    padding: 5px;
+    width: 750px;
+    border-radius: 5px;
+}
+/* --------ANTIGUA----------- */
+    .gallery {
+        width: 750px;
+        margin: auto;
+    }
+    .antigua p {
+    text-align: left;
+    width: 750px;
+    }
+    .architecture img {
+        width: 90%;
+    }
+    .people img {
+        width: 90%;
+    }
+    .handicrafts img {
+        width: 90%;
+    }
+    .article {
+    padding: 15px;
+    height: auto;
+    width: 800px;
+}
+/* --------JOIN US PAGE----------- */
+    .joinow {
+        width: 750px;
+    }
+    #form {
+        width: 600px;
+        margin: 15px auto;
+    }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Manrope:wght@200&display=swap" rel="stylesheet">
+<script src="js/menu.js"></script>
+<script src="js/forecastapi.js"></script>
+<title>Home Page for Chamber of Commerce site</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo for chamber of commerce site">
+    <section class="heading">
+    <h1>CHAMBER OF COMMERCE</h1>
+    </section>
+    </header>
+    <nav>
+        <ul class="nav">
+            <li><a href="#" onclick="smallMenu()">&#9776;</a></li>
+            <li><a class="active" href="">Home</a></li>
+            <li><a href="">Antigua Guatemala</a></li>
+            <li><a href="">Join us</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+<section class="banner">
+        <img class="muni" src="images/banderadeguate.jpg" alt="">
+    </section>
+<section class="purpose">
+    <h2 class="title">PURPOSE</h2>
+    <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Labore ipsum eveniet incidunt repellendus harum recusandae enim, 
+        dolore explicabo dignissimos, error voluptatibus corrupti excepturi, 
+        nesciunt earum animi temporibus libero atque? Consectetur!</p>
+</section>
+    <section class="highlights">
+    <h2 class="title">HIGHLIGHTS</h2>
+    <div class="carmela">
+    <figure><img src="images/aycarmela.jpg" alt="restaurant Ay Carmela"><figcaption>Ay Carmela's Restaurant</figcaption></figure>
+    </div>
+    <div class="distefano">
+    <figure><img src="images/distefano.jpg" alt="clothing store Distefano"><figcaption>Distefano's Clothing Store</figcaption></figure>
+    </div>
+    <div class="brohders">
+    <figure><img src="images/brohders.jpg" alt="Brohders bakery"><figcaption>Brohders Bakery</figcaption></figure>
+    </div>
+    </section>
+<section class="join">
+    <p class="content joinus">Join us!<br><br> <a href="#" class="button">Join</a></p>
+<section class="weathersum"><h4 class="title">Current Weather</h4>
+    <p class="content">Currently: <span id="current"></span></p>
+    <p class="content">Temperature: <span id="current-temp"></span>&deg;F</p>
+    <p class="content">Humidity: <span id="humidity"></span> %</p>
+</section>
+</section>
+<section class="forecast">
+    <h2 class="title">THREE DAY FORECAST</h2>
+    <p><span id="dayofweek1"></span> <br><br>
+        <span id="imagesrc1"></span> <img id="icon1" src="#" alt=""><br><br> 
+        <span id="forecast1"></span>&deg; F</p>
+    <p><span id="dayofweek2"></span> <br><br>
+        <span id="imagesrc2"></span> <img id="icon2" src="#" alt=""> <br><br>
+        <span id="forecast2"></span>&deg; F</p>
+    <p><span id="dayofweek3"></span> <br><br>
+        <span id="imagesrc3"></span> <img id="icon3" src="#" alt=""> <br><br>
+        <span id="forecast3"></span>&deg; F</p>
+</section>
+<section class="events">
+    <h2 class="title">UPCOMING EVENTS</h2>
+    <p class="content">June 19th: <br>Picnic in The Park</p>
+    <p class="content">June 26th: <br>Childrens Choir Performance</p>
+    <p class="content">June 27th: <br>Community BBQ</p>
+</section>
+    </main>
+    <footer>
+        <div class="contactinfo">
+            <div>
+                <p><strong>Chamber of Commerce</strong><br>
+                    2228  Modoc Alley<br>
+                       Preston, ID 83263<br><br>
+                       208-851-0173<br>
+                    info@bringtheweather.com<br>
+                   </p>
+                   <div class="social">
+                    <a class="social" href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram icon"></a>
+                    <a class="social" href="https://www.twitter.com/"><img src="images/twitter.png" alt="twitter icon"></a>
+                    <a class="social" href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook icon"></a>
+                 </div>
+        <p class="personalinfo">&copy; <span id="current-year">2021</span>
+            | Dulce Rodriguez | Guatemala
+        </p>
+    </footer>
+</body>
+</html>

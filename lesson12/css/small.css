@@ -1,0 +1,235 @@
+/* --------Header----------- */
+header {
+    background-color: #b7e1d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading {
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding: 5px;
+}
+header img {
+    width: 100px;
+    height: auto;
+}
+/* --------NAVIGATION----------- */
+.nav {
+    background-color: #ee9b00;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-radius: 4px;
+    padding-left: 0;
+}
+.nav a{
+    font-weight: bold;
+    display: block;
+    color: rgb(4, 24, 48);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav li:first-child {
+    display: block;
+}
+.nav li {
+    display: none;
+    line-height: 1.75; 
+}
+nav a:hover {
+    color: black;
+    background-color: #bb3e03;
+    font-weight: 700;
+}
+.nav .active {
+    background-color: #bb3e03;
+}
+.responsive li{
+    display: block;
+}
+/* --------BODY----------- */
+body {
+    background-color: #f7f1de8c;
+}
+.title {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    grid-column: 1/4;
+}
+.content {
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+.muni {
+    align-items: center;
+    width: 100%;
+}
+/* --------HIGHLIGHTS----------- */
+figure img {
+    width: 50%;
+}
+.highlights {
+    display: block;
+    text-align: center;
+    margin: 15px auto;
+}
+figcaption {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+}
+/* --------JOIN----------- */
+.join {
+    margin: auto;
+    background-color: #0baaad83;
+    padding: 2px;
+}
+.button {
+    background-color: #ee9b00;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* --------CURRENT WEATHER----------- */
+.weathersum {
+    background-color: #bec8c8e5;
+    padding: 5px;
+}
+/* --------FORECAST----------- */
+.forecast {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin: 10px auto;
+    font-family: 'Manrope', sans-serif;
+}
+/* --------EVENTS----------- */
+.events {
+    background-color: #0baaad83;
+    padding: 5px;
+    margin: 15px auto;
+}
+/* --------ANTIGUA----------- */
+.antigua {
+    margin: auto;
+}
+.gallery {
+    margin: auto;
+}
+.antigua p {
+    text-align: left;
+    margin: auto;
+    padding: 5px;
+}
+.architecture {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.architecture img {
+    width: 95%;
+    margin: auto;
+}
+.people {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.people img {
+    width: 95%;
+    margin: auto;
+}
+.handicrafts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.handicrafts img {
+    width: 95%;
+    margin: auto;
+}
+.articlepic {
+    float: right;
+    margin: 8px;
+    width: 20%
+}
+.article {
+    background-color: #bec8c8e5;
+    margin: 10px auto;
+    padding: 15px;
+    height: auto;
+    font-family: 'Manrope', sans-serif;
+}
+.article p {
+    text-align: left;
+}
+/* --------JOIN US PAGE----------- */
+.joinow {
+    width: auto;
+}
+#form {
+    margin: auto;
+    border-radius: 5px;
+    background-color: #0baaad83;
+    padding: 20px;
+}
+.label {
+    font-weight: bold;
+}
+form {
+    width: auto;
+    font-family: 'Manrope', sans-serif;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.field {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: rgb(165, 164, 164);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+input[type=submit]:hover {
+      background-color: rgb(204, 181, 151);
+}
+/* --------FOOTER----------- */
+footer {
+    background-color: #b7e1d3;
+    color: black;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    border-radius: 4px;
+    width: auto;
+}

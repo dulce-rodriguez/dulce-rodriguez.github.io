@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Manrope:wght@200&display=swap" rel="stylesheet">
+<script src="js/menu.js"></script>
+<script src="js/forecastapi.js"></script>
+<title>Home Page for Chamber of Commerce site</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo for chamber of commerce site">
+    <section class="heading">
+    <h1>CHAMBER OF COMMERCE</h1>
+    </section>
+    </header>
+    <nav>
+        <ul class="nav">
+            <li><a href="#" onclick="smallMenu()">&#9776;</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Antigua Guatemala</a></li>
+            <li><a class="active" href="">Join us</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="title">JOIN US!</h2>
+        <p class="content joinow">Benefits of joining</p>
+        <div id="form">
+        <form method="GET" action="">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="label">*First Name <br><input class="field" type="text" name="fname" required></label><br>
+                <label class="label">*Last Name <br><input class="field" type="text" name="lname" required></label><br>
+                <label class="label">Title <br><input class="field" type="text" name="title"></label><br>
+                <label class="label">Email <br><input class="field" type="email" name="email" placeholder="someone@gmail.com"></label><br>
+                <label class="label">Cell Phone <br><input class="field" type="tel" name="phone" placeholder="1234451221"></label><br>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Business Information</legend>
+                <label class="label">*Business Name <br><input class="field" type="text" name="bname" required></label><br>
+                <label class="label">Business Address <br><input class="field" type="address" name="address"></label><br>
+                <label class="label">Business Website <br><input class="field" type="url" name="website"></label><br>
+                <label class="label">Business Description <br><input class="field" type="text" name="information" style="height: 100px;"></label><br><br>
+                </fieldset>
+            <fieldset>
+                <legend>Member Level</legend>
+                <label>Annual Fees </label><br>
+                <label><input type="radio" name="level" value="yes"> <strong> Non-Profit</strong> ($100)</label><br>
+                <label><input type="radio" name="level" value="maybe"> <strong> Bronze</strong> ($200)</label><br>
+                <label><input type="radio" name="level" value="no"> <strong> Silver </strong>($400)</label><br>
+                <label><input type="radio" name="level" value="no"> <strong> Gold </strong>($1000)</label><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Member Level Key</legend>
+                <p>
+                <strong>Non-Profit: </strong><br>
+                <strong>Bronze: </strong><br>
+                <strong>Silver: </strong><br>
+                <strong>Gold: </strong><br>
+            </p>
+            </fieldset>
+        </div>
+        </form>
+    </main>
+    <footer>
+        <div class="contactinfo">
+            <div>
+                <p><strong>Chamber of Commerce</strong><br>
+                    2228  Modoc Alley<br>
+                       Preston, ID 83263<br><br>
+                       208-851-0173<br>
+                    info@bringtheweather.com<br>
+                   </p>
+                   <div class="social">
+                    <a class="social" href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram icon"></a>
+                    <a class="social" href="https://www.twitter.com/"><img src="images/twitter.png" alt="twitter icon"></a>
+                    <a class="social" href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook icon"></a>
+                 </div>
+        <p class="personalinfo">&copy; <span id="current-year">2021</span>
+            | Dulce Rodriguez | Guatemala
+        </p>
+    </footer>
+</body>
+</html>
