@@ -1,4 +1,4 @@
-const requestURL = '';
+const requestURL = 'https://github.com/dulce-rodriguez/dulce-rodriguez.github.io/blob/master/lesson12/json/directory.json';
 
 window.addEventListener('load', () => {
     fetch(requestURL)
@@ -6,9 +6,9 @@ window.addEventListener('load', () => {
         return response.json();
     })
     .then(function (jsonObject) {
-        const prophets = jsonObject['prophets'];
+        const business = jsonObject['business'];
         console.table(jsonObject);  // temporary checking for valid response and data parsing
-            for (let i = 0; i < prophets.length; i++ ) {
+            for (let i = 0; i < business.length; i++ ) {
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
             let p1 = document.createElement('p');
