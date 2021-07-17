@@ -70,4 +70,30 @@
         width: 600px;
         margin: 15px auto;
     }
+/* --------CONTACT PAGE----------- */
+    #contactform {
+        width: 600px;
+        margin: 15px auto;
+    }
+    .directors {
+        width: 750px;
+        text-align: center;
+        margin: auto;
+    }
+    .directors img {
+        width: 75%;
+    }
+    .staff {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .staff figcaption {
+        font-size: 15px;
+    }
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 750px;
+        margin: auto;
+    }
 }

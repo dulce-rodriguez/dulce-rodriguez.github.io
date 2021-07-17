@@ -167,6 +167,7 @@ figcaption {
     padding: 15px;
     height: auto;
     font-family: 'Manrope', sans-serif;
+    border-radius: 5px;
 }
 .article p {
     text-align: left;
@@ -221,6 +222,32 @@ input[type=submit] {
 }
 input[type=submit]:hover {
       background-color: rgb(204, 181, 151);
+}
+/* --------CONTACT PAGE----------- */
+#contactform {
+    margin: auto;
+    border-radius: 5px;
+    background-color: #0baaad83;
+    padding: 20px;
+}
+.directors img {
+    width: 40%;
+    border-radius: 50%;
+    display: inline;
+}
+.directors figure {
+    margin: 8px auto;
+    text-align: center;
+}
+.staff figcaption {
+    font-size: 15px;
+}
+.contact {
+    display: block;
+}
+.map {
+    text-align: center;
+    margin: auto;
 }
 /* --------FOOTER----------- */
 footer {

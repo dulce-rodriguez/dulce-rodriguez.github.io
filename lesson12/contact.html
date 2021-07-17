@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Manrope:wght@200&display=swap" rel="stylesheet">
+<script src="js/menu.js"></script>
+<script src="js/forecastapi.js"></script>
+<title>Home Page for Chamber of Commerce site</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo for chamber of commerce site">
+    <section class="heading">
+    <h1>CHAMBER OF COMMERCE</h1>
+    </section>
+    </header>
+    <nav>
+        <ul class="nav">
+            <li><a href="#" onclick="smallMenu()">&#9776;</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="antigua.html">Antigua Guatemala</a></li>
+            <li><a href="join.html">Join us</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="title">CONTACT US</h2>
+            <div id="contactform">
+                <form method="GET" action="">
+                        <label class="label">Name <br><input class="field" type="text" name="fname"></label><br>
+                        <label class="label">Email <br><input class="field" type="email" name="email" placeholder="someone@gmail.com"></label><br>
+                        <label class="label">Cell Phone <br><input class="field" type="tel" name="phone" placeholder="1234451221"></label><br>
+                        <label class="label">Comments <br><input class="field" type="text" name="information" style="height: 100px;"></label>
+                </div>
+                </form>
+                <section class="directors">
+                    <h2 class="title">Meet our Directors</h2>
+                    <div class="staff">
+                    <figure><img src="images/ceo.jpg" alt="CEO"><figcaption>Jane Moore <br> Chief Executive Officer</figcaption></figure>
+                    <figure><img src="images/coo.jpg" alt="COO"><figcaption>Julia Michaels<br> Chief Operating Officer</figcaption></figure>
+                    <figure><img src="images/cfo.jpg" alt="CFO"><figcaption>Martin Smith <br> Chief Financial Officer</figcaption></figure>
+                    <figure><img src="images/cmo.jpg" alt="CMO"><figcaption>Jennifer Blunt <br> Chief Marketing Officer</figcaption></figure>
+                </div>                 
+                </section>
+        <section class="contact">
+            <h2 class="title">Contact Information</h2>
+            <div class="info">
+            <p class="content"><strong>Chamber of Commerce of Guatemala</strong><br>
+                               9 Calle Poniente,<br> Ciudad Antigua Guatemala, 03001<br><br>
+                               <strong>Phone Number:</strong><br>
+                               5936-2477 / 3537-4819<br><br>
+                               <strong>Schedule:</strong><br>
+                                Monday - Friday: 8am - 9pm<br>
+                                Saturday - Sunday: 10am - 12am</p>
+                            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.82179963125!2d-90.73818688465803!3d14.552180889833355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85890e1286f3ad39%3A0x5e81a075fd78e95c!2s9a%20Calle%20Pte%2C%20Antigua%20Guatemala!5e0!3m2!1ses!2sgt!4v1626481932611!5m2!1ses!2sgt" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contactinfo">
+            <div>
+                <p><strong>Chamber of Commerce</strong><br>
+                    2228  Modoc Alley<br>
+                       Preston, ID 83263<br><br>
+                       208-851-0173<br>
+                    info@bringtheweather.com<br>
+                   </p>
+                   <div class="social">
+                    <a class="social" href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram icon"></a>
+                    <a class="social" href="https://www.twitter.com/"><img src="images/twitter.png" alt="twitter icon"></a>
+                    <a class="social" href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook icon"></a>
+                 </div>
+        <p class="personalinfo">&copy; <span id="current-year">2021</span>
+            | Dulce Rodriguez | Guatemala
+        </p>
+    </footer>
+</body>
+</html>

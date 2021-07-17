@@ -31,6 +31,9 @@
         margin-bottom: 15px;
     }
     /* --------ANTIGUA----------- */
+    .antigua p {
+        width: 850px;
+        }
     .gallery {
         width: 850px;
     }
@@ -43,6 +46,13 @@
     }
     /* --------JOIN US PAGE----------- */
     .joinow {
+        width: 850px;
+    }
+    /* --------CONTACT PAGE----------- */
+    .directors {
+        width: 850px;
+    }
+    .contact {
         width: 850px;
     }
 }
