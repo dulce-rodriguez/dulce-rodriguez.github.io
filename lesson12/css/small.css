@@ -42,11 +42,11 @@ header img {
 }
 nav a:hover {
     color: black;
-    background-color: #bb3e03;
+    background-color: #bb3d038f;
     font-weight: 700;
 }
 .nav .active {
-    background-color: #bb3e03;
+    background-color: #bb3d038f;
 }
 .responsive li{
     display: block;
@@ -224,7 +224,7 @@ input[type=submit] {
     font-size: 15px;
 }
 input[type=submit]:hover {
-      background-color: #bb3e03;
+      background-color: #bb3d038f;
 }
 /* --------CONTACT PAGE----------- */
 #contactform {
