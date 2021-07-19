@@ -290,6 +290,9 @@ footer {
     display: block;
     width: auto;
 }
+.layout {
+    display: none;
+}
 /* --------DIRECTORY 2----------- */
 .cards2 h2 {
     font-family: 'EB Garamond', serif;

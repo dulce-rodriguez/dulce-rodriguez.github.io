@@ -55,4 +55,9 @@
     .contact {
         width: 850px;
     }
+    /* --------DIRECTORY----------- */
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

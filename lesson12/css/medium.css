@@ -109,13 +109,14 @@
         font-size: 13px;
         cursor: pointer;
         float: right;
+        margin: -15px auto;
     }
     .cards {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        width: auto;
+        grid-template-columns: 1fr 1fr;
         text-align: center;
-        margin: auto;
+        margin: auto 50px;
         padding: 25px;
+        width: 750px;
     }
 }
