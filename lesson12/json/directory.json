@@ -4,43 +4,37 @@
         "name": "Cerveceria Centro Americana",
         "order": 1,
         "contact": "servicioalclientecca@icasa.com.gt",
-        "website": "https://cerveceriacentroamericana.com/",
-        "logourl": "http://4.bp.blogspot.com/-xyKZPpegH-M/UAOocPFLcoI/AAAAAAAAASA/txTDeZpV-KQ/s1600/images.jpg"
+        "website": "https://cerveceriacentroamericana.com/"
       },
       {
         "name": "Pollo Campero",
         "order": 2,
         "contact": "1777",
-        "website": "https://www.campero.com/gt/inicio",
-        "logourl": "http://4.bp.blogspot.com/-xyKZPpegH-M/UAOocPFLcoI/AAAAAAAAASA/txTDeZpV-KQ/s1600/images.jpg"
+        "website": "https://www.campero.com/gt/inicio"
       },
       {
         "name": "Helados Sarita",
         "order": 3,
         "contact": "guatemala@heladosarita.com",
-        "website": "http://www.heladosarita.com/index.php",
-        "logourl": "http://4.bp.blogspot.com/-bt0KtUYMq-M/UAOqv5OXleI/AAAAAAAAASY/Hb9pirBWA7s/s1600/logo-sarita.jpg"
+        "website": "http://www.heladosarita.com/index.php"
       },
       {
         "name": "Agencias Way",
         "order": 4,
         "contact": "2421 2727",
-        "website": "https://agenciaswayonline.com/",
-        "logourl": "http://3.bp.blogspot.com/-bZ7i_CANYOY/UAOnSfkGMgI/AAAAAAAAARw/a8ushqgZHTM/s1600/Logotipo_Way_con_slogan.jpg"
+        "website": "https://agenciaswayonline.com/"
       },
       {
         "name": "Masesa",
         "order": 5,
         "contact": "servicioalclientecca@icasa.com.gt",
-        "website": "servicioalcliente@masesa.com",
-        "imageurl": "http://3.bp.blogspot.com/-InDNZTQFrfY/UAOnoGaoUyI/AAAAAAAAAR4/19ttIO1pYWM/s1600/masesa-logo.gif"
+        "website": "servicioalcliente@masesa.com"
       },
       {
         "name": "IRTRA",
         "order": 6,
         "contact": "hostales@irtra.org.gt",
-        "website": "https://irtra.org.gt/",
-        "imageurl": "http://1.bp.blogspot.com/-bKg4CEFDVHI/UAOpPAWURgI/AAAAAAAAASI/90nyAyNkq0A/s1600/LOGO-IRTRA.jpg"
+        "website": "https://irtra.org.gt/"
       }
     ]
 }

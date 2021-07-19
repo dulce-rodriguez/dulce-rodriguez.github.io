@@ -21,7 +21,7 @@ window.addEventListener('load', () => {
         card.appendChild(p1);
         card.appendChild(p2);
     
-        document.querySelector('div.cards').appendChild(card);
+        document.querySelector('div.cards2').appendChild(card);
         }
     });
 });

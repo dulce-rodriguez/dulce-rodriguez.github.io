@@ -1,3 +1,7 @@
+/* --------ALERT----------- */
+
+
+
 /* --------Header----------- */
 header {
     background-color: #b7e1d3;
@@ -19,7 +23,7 @@ header img {
 /* --------NAVIGATION----------- */
 .nav {
     background-color: #ee9b00;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Manrope', sans-serif;
     border-radius: 4px;
     padding-left: 0;
 }
@@ -113,6 +117,7 @@ figcaption {
     text-align: center;
     margin: 10px auto;
     font-family: 'Manrope', sans-serif;
+    width: 500px;
 }
 /* --------EVENTS----------- */
 .events {
@@ -249,7 +254,7 @@ input[type=submit]:hover {
     text-align: center;
     margin: auto;
 }
-/* --------FOOTER----------- */
+/* --------THANK YOU PAGE----------- */
 .thankyou {
     font-family: 'Manrope', sans-serif;
     text-align: center;
@@ -264,4 +269,50 @@ footer {
     padding: 10px;
     border-radius: 4px;
     width: auto;
+}
+/* --------DIRECTORY----------- */
+.cards h2 {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    background-color: #0baaad83;
+    width: auto;
+    margin: auto 50px; 
+    border-radius: 4px;
+    padding: 5px;
+}
+.cards p{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    width: auto;
+    margin: auto 50px; 
+    border-radius: 4px;
+    padding: 5px;
+}
+.cards {
+    display: block;
+    width: auto;
+}
+/* --------DIRECTORY 2----------- */
+.cards2 h2 {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    background-color: #0baaad83;
+    width: auto;
+    margin: auto 50px; 
+    border-radius: 4px;
+    padding: 5px;
+}
+.cards2 p{
+    font-family: 'Manrope', sans-serif;
+    text-align: left;
+    width: auto;
+    margin: auto 50px; 
+    border-radius: 4px;
+    padding: 5px;
+}
+.cards2 {
+    display: block;
+    width: 500px;
+    text-align: center;
+    margin: auto;
 }
