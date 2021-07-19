@@ -7,9 +7,6 @@
     .nav {
         display: flex;
     }
-    .nav a {
-        font-size: 15px;
-    }
     .nav li:first-child {
         display: none;
     }

@@ -1,7 +1,3 @@
-/* --------ALERT----------- */
-
-
-
 /* --------Header----------- */
 header {
     background-color: #b7e1d3;
@@ -24,17 +20,18 @@ header img {
 .nav {
     background-color: #ee9b00;
     font-family: 'Manrope', sans-serif;
+    font-size: 18px;
     border-radius: 4px;
     padding-left: 0;
 }
 .nav a{
     font-weight: bold;
     display: block;
-    color: rgb(4, 24, 48);
+    color: black;
+    font-weight: bolder;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
 }
 .nav li:first-child {
     display: block;
@@ -97,12 +94,13 @@ figcaption {
     font-family: 'Manrope', sans-serif;
     font-weight: bold;
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color: black;
+    font-weight: bolder;
+    padding: 10px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     cursor: pointer;
 }
 /* --------CURRENT WEATHER----------- */
